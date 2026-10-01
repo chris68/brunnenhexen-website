@@ -1,0 +1,87 @@
+/* Google Font (im <head> einfügen)
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+*/
+
+/* Allgemein */
+body {
+    background: rgb(115, 0, 255);
+    color: yellow;
+    font-family: "Orbitron", Arial, sans-serif;
+
+    /* Alte IE-Scrollbar-Eigenschaften */
+    scrollbar-base-color: black;
+    scrollbar-arrow-color: red;
+    scrollbar-darkshadow-color: #000000;
+    scrollbar-face-color: black;
+    scrollbar-highlight-color: yellow;
+    scrollbar-shadow-color: #000000;
+    scrollbar-track-color: navy;
+}
+
+/* Absätze */
+p {
+    color: #ff000d;
+    font-family: "Orbitron", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Überschriften */
+h1 {
+    color: yellow;
+    text-shadow: 0 0 8px yellow;
+}
+
+h4 {
+    color: lawngreen;
+    text-shadow: 0 0 5px lime;
+}
+
+/* Bilder */
+img {
+    border: 0;
+}
+
+/* Links */
+a:link,
+a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: yellow;
+    font-size: 13px;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+a:hover {
+    color: #00FFFF;
+    text-shadow: 0 0 8px #00FFFF;
+}
+
+a:active {
+    color: red;
+    text-shadow: 0 0 8px red;
+}
+
+/* Moderne Scrollbar (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: navy;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border: 2px solid yellow;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: red;
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: red navy;
+}

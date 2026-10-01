@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Brunnenhexen Bilfingen 🎭</title>
+
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Trebuchet MS", Arial, sans-serif;
+}
+
+
+body{
+
+    background:
+    linear-gradient(135deg,#d90429,#ffbe0b);
+
+    color:#222;
+
+    overflow-x:hidden;
+
+}
+
+
+/* Konfetti */
+
+.confetti{
+
+    position:fixed;
+
+    width:15px;
+
+    height:15px;
+
+    background:#ffbe0b;
+
+    top:-20px;
+
+    animation:fall 8s linear infinite;
+
+}
+
+
+@keyframes fall{
+
+    0%{
+        transform:translateY(-50px) rotate(0deg);
+    }
+
+    100%{
+        transform:translateY(110vh) rotate(720deg);
+    }
+
+}
+
+
+
+/* Navigation */
+
+
+nav{
+
+    background:#111;
+
+    padding:20px;
+
+    text-align:center;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:5;
+
+}
+
+
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin:20px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+
+nav a:hover{
+
+    color:#ffbe0b;
+
+}
+
+
+
+
+/* Start */
+
+
+header{
+
+    height:500px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+
+
+    background:
+
+    linear-gradient(
+    rgba(0,0,0,.6),
+    rgba(0,0,0,.6)
+    ),
+
+    url("fasnet.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+
+
+header h1{
+
+    font-size:70px;
+
+    text-shadow:
+    5px 5px 15px black;
+
+}
+
+
+
+header p{
+
+    font-size:30px;
+
+    margin-top:20px;
+
+}
+
+
+
+
+/* Inhalt */
+
+
+section{
+
+    max-width:1100px;
+
+    margin:50px auto;
+
+    padding:35px;
+
+    background:white;
+
+    border-radius:25px;
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.35);
+
+}
+
+
+
+h2{
+
+    color:#d90429;
+
+    text-align:center;
+
+    font-size:35px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+p{
+
+    font-size:20px;
+
+    line-height:1.7;
+
+    text-align:center;
+
+}
+
+
+
+/* Karten */
+
+
+.cards{
+
+    display:flex;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+
+
+.card{
+
+    background:#ffbe0b;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    width:280px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+
+
+.card:hover{
+
+    transform:translateY(-10px) rotate(2deg);
+
+    box-shadow:0 10px 20px #555;
+
+}
+
+
+
+.card h3{
+
+    font-size:25px;
+
+    margin-bottom:15px;
+
+}
+
+
+
+
+/* Button */
+
+
+.button{
+
+    display:block;
+
+    width:220px;
+
+    margin:30px auto;
+
+    padding:15px;
+
+    background:#d90429;
+
+    color:white;
+
+    text-align:center;
+
+    border-radius:30px;
+
+    text-decoration:none;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+}
+
+
+
+.button:hover{
+
+    background:#111;
+
+}
+
+
+
+
+footer{
+
+    background:#ff0000, yellow;
+
+    color:rgb(55, 0, 255);
+
+    padding:30px;
+
+    text-align:center;
+
+    font-size:18px;
+
+}
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+<!-- Konfetti -->
+
+<div class="confetti"></div>
+<div class="confetti"></div>
+<div class="confetti"></div>
+<div class="confetti"></div>
+<div class="confetti"></div>
+
+
+
+<nav>
+
+<a href="#ueberuns">Über uns</a>
+
+<a href="#fasnet">Fasnet</a>
+<a href="#termine">Termine</a>
+<a href="#kontakt">Kontakt</a>
+
+</nav>
+
+
+
+
+<header>
+
+<div>
+
+<h1>🧙‍♀️ Brunnenhexen Bilfingen</h1>
+
+<p>🎭 Tradition • Gemeinschaft • Fasnacht 🎭</p>
+
+</div>
+
+</header>
+
+
+
+
+
+<section id="ueberuns">
+
+<h2>Wer sind wir?</h2>
+
+<p>
+
+Die Brunnenhexen Bilfingen sind eine Fasnachtsgruppe
+
+aus Bilfingen im Enzkreis Baden-Württemberg.
+
+<br><br>
+
+Mit viel Leidenschaft, Spaß und Zusammenhalt
+
+pflegen wir das närrische Brauchtum und bringen
+
+die Fasnacht auf die Straßen.
+
+</p>
+
+</section>
+
+
+
+
+
+
+<section id="fasnet">
+
+<h2>🎭 Unsere Fasnet</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>🧙 Häs</h3>
+
+<p>
+
+Unser einzigartiges Erscheinungsbild
+
+macht uns zu einem Teil der Bilfinger Fasnacht.
+
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>🥁 Umzüge</h3>
+
+<p>
+
+Wir sind bei Fasnachtsumzügen
+
+und närrischen Veranstaltungen dabei.
+
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>🎉 Gemeinschaft</h3>
+
+<p>
+
+Gemeinsam erleben wir die fünfte
+
+Jahreszeit mit Freude und Tradition.
+
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section id="termine">
+
+<h2>📅 Veranstaltungen</h2>
+
+
+<p>
+
+🎭 Fasnachtsumzüge<br><br>
+
+🌳 Narrenbaumstellen<br><br>
+
+🥳 Hexenbälle<br><br>
+
+🎊 Veranstaltungen rund um die Bilfinger Fasnacht
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+<section id="kontakt">
+
+<h2>📞 Kontakt</h2>
+
+
+<p>
+
+Du möchtest mehr über die Brunnenhexen Bilfingen
+
+wissen oder Teil unserer Gruppe werden?
+
+</p>
+
+
+<a class="button" href="#">
+
+Kontakt aufnehmen
+
+</a>
+
+
+</section>
+
+
+
+
+
+
+<footer>
+
+    <p>🧙‍♀️ Brunnenhexen Bilfingen © 2026 | CODED BY FELIX</p>
+    <p>Fasnacht mit Herz und Tradition 🎭</p>
+
+    <br>
+
+    <a href="datenschutz.html">Datenschutz</a> |
+    <a href="impressum.html">Impressum</a> |
+    <a href="disclaimer.html">Disclaimer</a> |
+    <a href="bilder.html">Bilder</a> |
+    <a href="gbuch.html">Gastbuch</a> |
+    <a href="ueber-uns.html">Über uns</a>
+
+</footer>
+
+
+
+<script>
+
+// zufällige Konfetti Positionen
+
+let konfetti=document.querySelectorAll(".confetti");
+
+
+konfetti.forEach(k=>{
+
+    k.style.left=Math.random()*100+"%";
+
+    k.style.animationDelay=Math.random()*5+"s";
+
+    k.style.background=
+    ["#d90429","#ffbe0b","#111","#ffffff"]
+    [Math.floor(Math.random()*4)];
+
+});
+
+</script>
+
+
+
+</body>
+
+</html>
